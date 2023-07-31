@@ -18,7 +18,7 @@ if(houzez_is_half_map()) {
 <div class="sort-by">
 	<div class="d-flex align-items-center">
 		<div class="sort-by-title">
-			<?php esc_html_e( 'Sort by:', 'houzez' ); ?>
+			<?php esc_html_e( 'Sắp xếp theo:', 'houzez' ); ?>
 		</div><!-- sort-by-title -->  
 		<select id="<?php echo esc_attr($sort_id); ?>" class="selectpicker form-control bs-select-hidden" title="<?php esc_html_e( 'Default Order', 'houzez' ); ?>" data-live-search="false" data-dropdown-align-right="auto">
 			<option value=""><?php esc_html_e( 'Default Order', 'houzez' ); ?></option>
