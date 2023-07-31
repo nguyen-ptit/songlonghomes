@@ -83,7 +83,7 @@ if( !function_exists('houzez_get_localization')) {
 			'auto_result_not_found'		=> esc_html__( 'We didn’t find any results', 'houzez' ),
 			'auto_view_lists'		=> esc_html__( 'View Listing', 'houzez' ),
 			'auto_listings'		=> esc_html__( 'Listing', 'houzez' ),
-			'auto_city'		=> esc_html__( 'City', 'houzez' ),
+			'auto_city'		=> esc_html__( 'Quận', 'houzez' ),
 			'auto_area'		=> esc_html__( 'Area', 'houzez' ),
 			'auto_state'		=> esc_html__( 'State', 'houzez' ),
 
