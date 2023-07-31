@@ -128,7 +128,7 @@ if( $total_listing_found > 1 ) {
             <?php get_template_part('template-parts/page/breadcrumb'); ?> 
             <div class="d-flex align-items-center">
                 <div class="page-title flex-grow-1">
-                    <h1><?php echo esc_html($taxonomy_title); ?></h1>
+                    <h1>Danh sách <?php echo esc_html($taxonomy_title); ?> tại Hà Nội</h1>
                 </div><!-- page-title -->
                 <?php 
                 if($have_switcher) {
