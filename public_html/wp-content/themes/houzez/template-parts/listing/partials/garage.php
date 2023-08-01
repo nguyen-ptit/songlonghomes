@@ -16,7 +16,8 @@ if($prop_garage != '') {
 				$output .= '<img class="img-fluid mr-1" src="'.esc_url($cus_icon['url']).'" width="16" height="16" alt="'.esc_attr($alt).'">';
 			}
 		} else {
-			$output .= '<i class="houzez-icon icon-car-1 mr-1"></i>';
+// 			$output .= '<i class="houzez-icon icon-car-1 mr-1"></i>';
+			$output .= '<img src="/wp-content/uploads/2023/07/icons8-bike-50.png" alt="bike" width="16" height="16">';
 		}
 		$output .= '<span class="item-amenities-text">'.esc_attr($prop_garage_label).':</span> <span class="hz-figure">'.esc_attr($prop_garage).'</span>';
 	$output .= '</li>';

@@ -20,7 +20,8 @@ if($garage != "") {
 					$output_garage .= '<img class="img-fluid mr-1" src="'.esc_url($cus_icon['url']).'" width="16" height="16" alt="'.esc_attr($alt_title).'"> ';
 				}
 			} else {
-				$output_garage .= '<i class="houzez-icon icon-car-1 mr-1"></i> ';
+// 				$output_garage .= '<i class="houzez-icon icon-car-1 mr-1"></i> ';
+				$output_garage .= '<img src="/wp-content/uploads/2023/07/icons8-bike-50.png" alt="bike" width="16" height="16"> ';
 			}
 
 			$output_garage .= '<strong>'.esc_attr($garage).'</strong>';

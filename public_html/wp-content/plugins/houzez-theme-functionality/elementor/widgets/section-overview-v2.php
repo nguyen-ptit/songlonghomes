@@ -736,7 +736,8 @@ class Property_Overview_v2 extends Widget_Base {
 										$output .= '<img class="img-fluid mr-1" src="'.esc_url($cus_icon['url']).'" width="16" height="16" alt="'.esc_attr($cus_icon['title']).'"> ';
 									}
 								} else {
-									$output .= '<i class="houzez-icon icon-car-1 mr-1"></i> ';
+// 									$output .= '<i class="houzez-icon icon-car-1 mr-1"></i> ';
+									$output .= '<img src="/wp-content/uploads/2023/07/icons8-bike-50.png" alt="bike" width="16" height="16"> ';
 								}
 
 							} elseif ( $meta_field == 'property_size' ) {
