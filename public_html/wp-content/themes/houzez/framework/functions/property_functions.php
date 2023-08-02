@@ -6258,7 +6258,7 @@ if( !function_exists('houzez_feature_output') ) {
         if($icon_type == 'custom') {
             $icon_url = wp_get_attachment_url( $img_icon );
             if(!empty($icon_url)) {
-                $feature_icon = '<img src="'.esc_url($icon_url).'" class="hz-fte-img mr-2">';
+                $feature_icon = '<img width="25" height="25" src="'.esc_url($icon_url).'" class="hz-fte-img mr-2">';
             }
         } else {
             if(!empty($icon_class))
